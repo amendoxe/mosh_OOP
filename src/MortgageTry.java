@@ -1,14 +1,14 @@
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class Mortgage {
+public class MortgageTry {
     private int principal;
     private float annualInterest;
     private byte years;
     final static byte MONTHS_IN_YEAR = 12;
     final static byte PERCENT = 100;
 
-    public Mortgage() {
+    public MortgageTry() {
         setPrincipal(principal);
         setAnnualInterest(annualInterest);
         setYears(years);
